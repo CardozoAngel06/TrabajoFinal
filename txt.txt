@@ -1,0 +1,8 @@
+                        <div class="d-flex justify-content-between">
+                            <button type="submit" class="btn btn-danger">Eliminar Cuenta</button>
+                            <button type="button" class="btn btn-danger cancel-button" id="cancelarCambio">Cancelar</button>
+                        </div>
+                        
+  document.getElementById('cancelarCambio').addEventListener('click', function () {
+    window.location.href = 'index.html';
+});
